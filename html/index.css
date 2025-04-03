@@ -1,0 +1,22 @@
+
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #00698f;
+}
+
+p {
+  color: #666;
+}
+
+a {
+  text-decoration: none;
+  color: #00698f;
+}
+
+a:hover {
+  color: #0097c5;
+}
