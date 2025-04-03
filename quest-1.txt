@@ -1,0 +1,135 @@
+1.What does HTML stand for?
+HTML STANDS FOR:
+HYPER TEXT MARKUP LANGUAGE
+HyperText:It refers to text that has links to other text or resources.
+Markup:it means adding special codes or tags to text then give meaning it.
+Language:It is the system of codes and rules used to communicate.
+
+2.what is hyperlink,How do you create a hyperlink in HTML?
+Hyperlink:
+A hyperlink,also know as link.It is clickable text or image that takes you to another website,webpage or location of the internet.
+Creation of hyperlink:
+To create a hyperlink in HTML, you use the <a> tag.
+Basic syntax:
+<a href="URL">Link Text</a>
+<a>:anchor tag
+href:it is attribute & it can specify the url of the link.
+URL:web address of the link.
+Link Text:it is displayed for the link.
+Example:
+<a href="https:www.google.com">visit google</a>
+Types of hyperlinks:
+1.internal links:same webpage
+2.external links:different webpage
+3.email link:email address
+
+3.Which tag is used to display an image in HTML?
+Tag:
+it is a set of characters that surrounds content & tells the web browser how to display the content.
+Syntax:
+<img src="image url" alt="image_description">
+src:source of the image
+alt:alternate text for the image
+Example:
+<img src="image.jpg" alt="landspace">
+
+4.What is the title tag & purpose of the <title> tag in HTML?
+Title tag:it is used to define the title of a web page.
+Purpose:
+1.Browser title bar:it is displayed in the browser's title bar
+2.search engine results:it is used as title of the webpage in search engine results
+3.bookmarks & favorites:name of bookmarks & favorites
+4.page indentification:it indentify page and its content
+importance:
+1.improves search engine optimization
+2.provide context
+3.enhance accessibility
+Example:
+<head>
+<title>Home page</title>
+</head>
+
+5.How do you create a line break in HTML?
+line break:to separate the 2 lines
+Create a line break:
+<br> tag:
+it is a self-closing tag that inserts a line break.
+Example:
+<p>first line text.<br>second line text</p>
+
+6.Which tag is used to create a table in HTML?
+Table:
+It is a structured set of data arranged in rows and colmuns.
+Creation of table:
+<tr>:table row
+<td>:table data
+<th>:table header
+Example:
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>25</td>
+   </tr>
+</table>
+
+7.How do you create a list in HTML?
+List:
+It is a collection of items that are displayed in a specific order.
+Types of lists:
+1.ordered list(<ol>):order of items matters.
+2.Unordered list(<ul>:order of items doesn't matter.
+3.definition list(<dl>):it consists terms and definations.
+Creation of list:
+Ordered list:
+<ol>
+ <li>Item1</li>
+ <li>Item2</li>
+</ol>
+Unordered list:
+<ul>
+  <li>Item1</li>
+  <li>Item2</li>
+</ul>
+Definition list:
+<dl>
+ <dt>Term1</dt>
+ <dd>defination1</dd>
+  <dt>Term1</dt>
+ <dd>defination1</dd>
+</dl>
+list tags:
+dl:definition list
+dt:term in definition list
+dd:definition in a definition list 
+
+8.Which tag is used to define a paragraph in HTML?
+<p>:
+it is used to wrap around a block of text to define it as a paragaraph.
+eg:
+<p>hello everyone</p>
+
+9.What is the use of the <head> tag in HTML?
+working process:
+it provides information about your web page
+title:title of the page shown in browser
+metadata:extra information like keywords
+links:connect to other resources
+why:
+search engine:understand page content and context
+browsers:diplay the page of title,favicon and other information
+users:find your page easily
+example:
+<head>
+  <title>my page</title>
+</head>
+
+10.Which tag is used to make text bold in HTML?
+<b> or <strong>:
+both tags will make the text bold,but<strong> is often preferred bcz it provises a clear indication of the text's importance.
+example:
+<b>this is bold</b>
+<strong>it is strong and bold</strong>
